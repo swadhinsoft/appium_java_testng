@@ -15,9 +15,9 @@ public class ExtentReport {
     
     public synchronized static ExtentReports getReporter() {
         if (extent == null) {
-        	ExtentSparkReporter html = new ExtentSparkReporter("Extent.html");
+        	ExtentSparkReporter html = new ExtentSparkReporter("ExtentReport.html");
         	html.config().setDocumentTitle("Appium Framework");
-        	html.config().setReportName("MyApp");
+        	html.config().setReportName("DemoApp");
         	html.config().setTheme(Theme.DARK);
             extent = new ExtentReports();
             extent.attachReporter(html);
