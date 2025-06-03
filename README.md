@@ -53,7 +53,7 @@ This repository contains a robust and scalable **Mobile Automation Framework** b
 Clone the repository and follow the documentation to start writing and running your mobile test cases on real Android/iOS devices.
 
 ```bash
-git clone https://github.com/your-repo/mobile-automation-framework.git
+git clone https://github.com/swadhinsoft/appium_java_testng
 ```
 
 ---
